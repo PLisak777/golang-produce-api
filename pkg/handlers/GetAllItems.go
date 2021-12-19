@@ -2,7 +2,7 @@ package handlers
 
 import (
 	"encoding/json"
-	"golang-produce-api/pkg/mocks"
+	"github.com/PLisak777/golang-produce-api/pkg/mocks"
 	"net/http"
 )
 

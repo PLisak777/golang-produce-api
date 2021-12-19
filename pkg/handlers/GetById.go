@@ -6,7 +6,7 @@ import (
 	"strconv"
 
 	"github.com/gorilla/mux"
-	"golang-produce-api/pkg/mocks"
+	"github.com/PLisak777/golang-produce-api/pkg/mocks"
 )
 
 func GetById(w http.ResponseWriter, r *http.Request) {

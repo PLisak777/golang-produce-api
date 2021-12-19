@@ -2,8 +2,8 @@ package handlers
 
 import (
 	"encoding/json"
-	"golang-produce-api/pkg/mocks"
-	"golang-produce-api/pkg/models"
+	"github.com/PLisak777/golang-produce-api/pkg/mocks"
+	"github.com/PLisak777/golang-produce-api/pkg/models"
 	"io/ioutil"
 	"log"
 	"math/rand"

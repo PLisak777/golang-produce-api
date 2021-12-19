@@ -1,4 +1,4 @@
-module golang-produce-api
+module github.com/PLisak777/golang-produce-api
 
 go 1.17
 

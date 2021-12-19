@@ -1,6 +1,6 @@
 package mocks
 
-import "golang-produce-api/pkg/models"
+import "github.com/PLisak777/golang-produce-api/pkg/models"
 
 var Groceries = []models.Produce{
 	{
