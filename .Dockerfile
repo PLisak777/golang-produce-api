@@ -1,5 +1,3 @@
-# syntax=docker/dockerfile:1
-
 FROM golang:latest
 
 WORKDIR /app
@@ -10,8 +8,6 @@ COPY go.sum .
 RUN go mod download
 
 COPY . .
-
-ENV PORT=4000
 
 RUN go build 
 

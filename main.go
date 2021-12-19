@@ -3,7 +3,6 @@ package main
 import (
 	"log"
 	"net/http"
-	"os"
 
 	"github.com/PLisak777/golang-produce-api/pkg/handlers"
 	"github.com/gorilla/mux"
@@ -18,5 +17,5 @@ func main() {
 	router.HandleFunc("/produce/{id}", handlers.DeleteItem).Methods(http.MethodDelete)
 
 	log.Println("API Running")
-	http.ListenAndServe(os.Getenv("PORT"), router)
+	http.ListenAndServe(":4000", router)
 }
